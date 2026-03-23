@@ -1,0 +1,13 @@
+{
+  "name": "tiered-rate-limiter",
+  "version": "1.0.0",
+  "description": "Per-tier API rate limiting middleware with Redis or in-memory fallback",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "scripts": { "test": "vitest run" },
+  "author": "Justice",
+  "license": "MIT",
+  "keywords": ["rate-limit", "middleware", "express", "redis", "tier"],
+  "devDependencies": { "vitest": "^3.0.0" }
+}
